@@ -16,7 +16,7 @@
 Fruits = ['Яблоко', 'Банан', 'Киви', 'Арбуз', 'Манго', 'Груша', 'Помидор', 'Дыня']
 last_name = len(Fruits)
 for i in range(last_name):
-    print(str(i + 1) + '.' + '{}'.format(Fruits[i]))
+    print(str(i + 1) + '.' + '{:>8}'.format(Fruits[i]))
 
 # Задача-2:
 # Даны два произвольные списка.
